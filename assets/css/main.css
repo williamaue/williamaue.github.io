@@ -26,8 +26,16 @@
 		line-height: 1;
 	}
 
-	ol, ul {
+	ul {
 		list-style: none;
+	}
+
+	ol {
+		list-style-type: decimal;
+	}
+
+	li {
+		margin: 10px 0;		
 	}
 
 	blockquote, q {
@@ -2175,6 +2183,10 @@
 
 			#main > section.four {
 				background-color: #e8edec;
+			}
+
+			#main > section.five {
+				background-color: #f5fafa;
 			}
 
 /* Wide */
